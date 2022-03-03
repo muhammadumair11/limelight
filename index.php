@@ -13,9 +13,6 @@
 <body>
 
   <?php include('Includes/Header/navbar.php') ?>
-
-
-  
     
 </body>
 </html>
