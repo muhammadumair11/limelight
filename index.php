@@ -14,18 +14,35 @@
 
   <?php include('Includes/Header/navbar.php') ?>
   <br>
-  <form class="container">
-  <div class="form-group col-lg-6">
-    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+  <div class="signin-form row justify-content-center">
+    <div class="col-lg-6">
+    <form class="container px-4">
+      <div class="supporting-text">
+        
+        <h1>Sign In</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, earum voluptate! Ullam totam placeat, blanditiis fuga, est dicta qui deleniti itaque
+        </p>
+      </div>
+        <div class="form-group">
+          <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <br>
+        <div class="form-group">
+        <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-gray">SignIn</button>
+        </div>
+    </form>
+    </div>
+    <div class="col-lg-6">
+      <img src="assets/images/logo.png" class="img-fluid" alt="">
+    </div>
   </div>
-  <br>
-  <div class="form-group col-lg-6">
-  <input type="password" class="form-control" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-  </div>
-<button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    
     
 </body>
 </html>
