@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg py-lg-3 navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand mx-lg-3" href="#">Lime Light</a>
+      <a class="navbar-brand mx-lg-3" href="#"><img class="navbar-img" src="assets/images/logo.png" alt=""> <span>LimeLight</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
