@@ -13,6 +13,19 @@
 <body>
 
   <?php include('Includes/Header/navbar.php') ?>
+  <br>
+  <form class="container">
+  <div class="form-group col-lg-6">
+    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <br>
+  <div class="form-group col-lg-6">
+  <input type="password" class="form-control" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+  </div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
     
 </body>
 </html>
