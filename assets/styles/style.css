@@ -18,6 +18,7 @@ body {
 
 nav {
     background: #e0e0e0;
+    width: 100%;
     box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
@@ -56,13 +57,15 @@ form input[type=text], form input[type=email], form input[type=password]  {
 
     font-size: .7rem;
 
-    background-color: transparent !important;
     padding: .7rem 2rem;
     border: none;
     border-radius: 10px;
-background: #e0e0e0;
-box-shadow: inset 14px 14px 28px #bcbcbc,
-            inset -14px -14px 28px #ffffff;
+
+    transition: all 500ms ease-in-out;
+    background: #e0e0e0;
+box-shadow:  5px 5px 10px #b3b3b3,
+             -5px -5px 10px #ffffff;
+
 }
 
 form input[type=text]::placeholder, form input[type=email]::placeholder, form input[type=password]::placeholder {
@@ -71,10 +74,7 @@ form input[type=text]::placeholder, form input[type=email]::placeholder, form in
 
 form input[type=text]:focus , form input[type=email]:focus, form input[type=password]:focus {
     border: none;
-
-    background: #e0e0e0;
-box-shadow: inset 14px 14px 28px #bcbcbc,
-            inset -14px -14px 28px #ffffff;    
+    box-shadow: none;   
 }
 
 form input:focus {
@@ -97,7 +97,18 @@ form input:focus {
 }
 
 
+.side-img {
+    width: 35%;
+    height: auto;
+}
+
 /* Sign In Form */
+
+.signin-form .btn-gray {
+    padding: 1rem 4rem;
+    font-size: .9rem;
+    font-weight: bold;
+}
 
 .supporting-text {
     font-family: 'Abril Fatface', cursive;
@@ -110,3 +121,5 @@ form input:focus {
 .supporting-text p {
     font-size: 1.2rem;
 }
+
+

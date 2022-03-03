@@ -38,8 +38,16 @@
         </div>
     </form>
     </div>
-    <div class="col-lg-6">
-      <img src="assets/images/logo.png" class="img-fluid" alt="">
+    <div class="col-lg-6 d-flex justify-content-center flex-wrap p-0">
+      <?php
+        for ($i=0; $i < 4; $i++) { 
+          # code...
+          ?>
+          <img src="assets/images/logo.png" class="side-img" alt="">
+
+          <?php
+        }
+      ?>
     </div>
   </div>
     
