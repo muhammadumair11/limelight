@@ -11,6 +11,10 @@ font-family: 'League Gothic', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;600;700&family=League+Gothic&family=Saira+Condensed:wght@100;400;500&display=swap');
 
+:root {
+    --fonts: 'League Gothic', sans-serif;
+}
+
 
 body {
     overflow-x: hidden;
@@ -26,7 +30,7 @@ nav {
     display: flex;
     align-items: center;
     font-family: 'Inter', sans-serif;
-font-family: 'League Gothic', sans-serif;
+font-family: var(--fonts)
 }
 .navbar-brand span {
     font-size: 2rem;
@@ -48,6 +52,10 @@ box-shadow:  5px 5px 10px #b3b3b3,
 
 .nav-item:hover, .nav-item:active {
     box-shadow: none;
+}
+
+.user-info {
+    font-family: var(--fonts);
 }
 
 
@@ -122,4 +130,71 @@ form input:focus {
     font-size: 1.2rem;
 }
 
+
+/* List Redesign */
+
+
+
+.list-group .list-group-item {
+    border: 1px solid #aaa !important;
+
+    margin: 5px 0 !important;
+
+    border-radius: 24px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #b3b3b3,
+    -5px -5px 10px #ffffff;  
+
+    transition: all 300ms ease-in-out;
+
+    font-size: 1.5rem;
+    font-family: var(--fonts);
+}
+
+.list-group .list-group-item:hover {
+    box-shadow: none;
+}
+
+
+
+
+/* Card Redesign */
+
+
+.card {
+    border: 1px solid #aaa !important;
+
+    border-radius: 24px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #b3b3b3,
+    -5px -5px 10px #ffffff; 
+
+    transition: all 300ms ease-in-out;
+
+    font-family: var(--fonts);
+}
+
+.card:hover {
+    box-shadow: none;
+}
+
+.card img {
+    max-height: 250px;
+    border-radius: 24px 24px 0 0;
+}
+
+.card .card-title {
+    font-size: 2rem;
+}
+
+.card .btn {
+    font-size: 1.5rem !important;
+}
+
+
+/* Home CSS */
+
+.cat-heading {
+    font-family: var(--fonts);
+}
 
